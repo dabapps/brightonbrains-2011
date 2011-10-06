@@ -1,75 +1,293 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset='utf-8'>
 
-  <title>dabapps/brightonbrains @ GitHub</title>
+<html lang="en">
+    <head>
+        <title>Brighton Brains</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Bringing together the creative and digital communities of Brighton and Hove and the academic and student communities of local universities and colleges.">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE6">
 
-  <style type="text/css">
-    body {
-      margin-top: 1.0em;
-      background-color: #43a6e3;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #000000;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-    h1 { font-size: 3.8em; color: #bc591c; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #bc591c; }
-    h3 { text-align: center; color: #bc591c; }
-    a { color: #bc591c; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-  </style>
-</head>
+        <link href="http://fonts.googleapis.com/css?family=Changa+One" rel="stylesheet" type="text/css" />
 
-<body>
-  <a href="http://github.com/dabapps/brightonbrains"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+        <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 
-  <div id="container">
+        <!-- 1140px Grid styles for IE -->
+        <!--[if lte IE 9]><link rel="stylesheet" href="static/css/lib/ie.css" type="text/css" media="screen" /><![endif]-->
 
-    <div class="download">
-      <a href="http://github.com/dabapps/brightonbrains/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/dabapps/brightonbrains/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
-    </div>
+        <link rel="stylesheet" href="static/css/lib/bootstrap-1.3.0.css" />
+        <link rel="stylesheet" href="static/css/lib/1140.css" />
+        <link rel="stylesheet" href="static/css/core.css" type="text/css" />
 
-    <h1><a href="http://github.com/dabapps/brightonbrains">Brighton Brains</a>
-      <span class="small">by <a href="http://github.com/dabapps">dabapps</a></span></h1>
+        <!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+        <script type="text/javascript" src="static/javascript/lib/css3-mediaqueries.js"></script>
 
-    <div class="description">
-      
-    </div>
+        <script type="text/javascript">
 
-    <h2>Contact</h2>
-<p>DabApps (jamie@dabapps.com)<br/>      </p>
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-10730880-2']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="hero-unit">
+                    <img src="static/images/template/logo.png" alt="Brighton Brains logo" />
+                    <h1>Brighton Brains</h1>
+                    <p>Bringing together the <strong>creative and digital communities</strong> of Brighton and Hove and the <strong>academic and student communities</strong> of local universities and colleges.</p>
+                </div>
+            </div>
+
+            <div class="row social">
+                <div class="twelvecol">
+                    <div class="facebook">
+                        <div id="fb-root"></div>
+                        <script>(function(d, s, id) {
+                          var js, fjs = d.getElementsByTagName(s)[0];
+                          if (d.getElementById(id)) {return;}
+                          js = d.createElement(s); js.id = id;
+                          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                          fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));</script>
+
+                        <div class="fb-like" data-href="http://brightonbrains.org" data-send="false" data-width="450" data-show-faces="true" data-font="verdana"></div>
+                    </div>
+                    <div class="twitter">
+                        <a href="https://twitter.com/brightonbrains" class="twitter-follow-button">Follow @brightonbrains</a>
+                        <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="threecol">
+                    <h2>Passion</h2>
+                    <p>Why are you at college or university? Why are you an academic researcher? Because you have a <strong>passion</strong> about your chosen field of study. Brighton is full of passionate people. You could be talking to them.</p>
+                </div>
+                <div class="threecol">
+                    <h2>Learning</h2>
+                    <p>Brighton has dozens of <strong>free</strong> groups and meetings, run by people who care about their subject. World-class expert speakers are talking at events right on your doorstep. You could be attending them.</p>
+                </div>
+                <div class="threecol">
+                    <h2>Belonging</h2>
+                    <p>It's always good to spend time with like-minded, <strong>friendly</strong> people at group meetings, or over a coffee or a pint. You could be part of the community.</p>
+                </div>
+                <div class="threecol last">
+                    <h2>Opportunity</h2>
+                    <p>Brighton is full of creative and technical talent, just like you, sharing their knowledge, <strong>collaborating</strong> and generating opportunities. You could be benefiting from these opportunities.</p>
+                </div>
+            </div>
 
 
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/dabapps/brightonbrains/zipball/master">zip</a> or
-      <a href="http://github.com/dabapps/brightonbrains/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/dabapps/brightonbrains</pre>
-    </p>
+            <div class="row">
 
-    <div class="footer">
-      get the source code on GitHub : <a href="http://github.com/dabapps/brightonbrains">dabapps/brightonbrains</a>
-    </div>
+                <div class="sixcol">
+                    <div class="listing">
+                        <h2><a href="http://asyncjs.com/" title="Website">Async</a></h2>
+                        <div class="left">
+                            <p><img alt="Async" src="static/images/groups/async.jpg" /></p>
+                        </div>
+                        <div class="right">
+                            <p>Async is a JavaScript meet up group with talks and coding sessions every two weeks. JavaScript is the true lingua franca of the web. It is probably the most widely deployed computer language, running in hundreds of millions of web browsers on desktops and mobile devices. For a student looking to move into the web software industry, learning JavaScript is essential.</p>
+                            <dl class="links">
+                                <dt></dt>
+                                <dd class="more">Find out more</dd>
+                                <dt>Twitter:</dt>
+                                <dd class="twitter"><a href="http://twitter.com/asyncjs" title="Twitter"><span class="hide">http://twitter.com/asyncjs</span></a></dd>
+                                <dt>Website:</dt>
+                                <dd class="website"><a href="http://asyncjs.com/" title="Website"><span class="hide">http://asyncjs.com/</span></a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
 
-  </div>
 
-  
-</body>
+                <div class="sixcol last">
+                    <div class="listing">
+                        <h2><a href="http://brightonanimators.ning.com/" title="Website">BANG!</a></h2>
+                        <div class="left">
+                            <p><img src="static/images/groups/bang.png" alt="Brighton BANG!" /></p>
+                        </div>
+                        <div class="right">
+                            <p>The Brighton Animators Networking Group (BANG) provides an opportunity for animators to meet both online and offline and share knowledge. Past events and collaborations have included large-scale projections as part of the White Night festival, show and tell meetings, and business networking events.</p>
+                            <dl class="links">
+                                <dt></dt>
+                                <dd class="more">Find out more</dd>
+                                <dt>Twitter:</dt>
+                                <dd class="twitter"><a href="http://twitter.com/brightonbangers" title="Twitter"><span class="hide">http://twitter.com/brightonbangers</span></a></dd>
+                                <dt>Website:</dt>
+                                <dd class="website"><a href="http://brightonanimators.ning.com/" title="Website"><span class="hide">http://brightonanimators.ning.com/</span></a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="sixcol">
+                    <div class="listing">
+                        <h2><a href="http://brightonpy.org" title="Website">BrightonPy</a></h2>
+                        <div class="left">
+                            <p><img alt="BrightonPy" src="static/images/groups/brightonpylogo.png" /></p>
+                        </div>
+                        <div class="right">
+                            <p>The Brighton and Hove Python User Group is a collection of people interested in the Python programming language. Python is widely used in academia, thanks to its focus on readability and the existence of mathematical and scientific libraries like NumPy and SciPy. Recent talks have included material on high performance computing, artificial intelligence and natural language processing.</p>
+                            <dl class="links">
+                                <dt></dt>
+                                <dd class="more">Find out more</dd>
+                                <dt>Twitter:</dt>
+                                <dd class="twitter"><a href="http://twitter.com/brightonpy" title="Twitter"><span class="hide">http://twitter.com/brightonpy</span></a></dd>
+                                <dt>Website:</dt>
+                                <dd class="website"><a href="http://brightonpy.org" title="Website"><span class="hide">http://brightonpy.org</span></a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sixcol last">
+                    <div class="listing">
+                        <h2><a href="http://www.buildbrighton.com" title="Website">Build Brighton</a></h2>
+                        <div class="left">
+                            <p><img  alt="Build Brighton" src="static/images/groups/buildbrighton.jpg" /></p>
+                        </div>
+                        <div class="right">
+                            <p>Build Brighton is a Hackspace, a volunteer-run communal workshop where like-minded people can geek out about electronics, technology, crafts, robotics, engineering, manufacturing and design. Reduced membership fees for students are offered, which will give you access to laser cutters, soldering irons, oscilloscopes, drills, saws and all manner of other equipment.</p>
+                            <dl class="links">
+                                <dt></dt>
+                                <dd class="more">Find out more</dd>
+                                <dt>Twitter:</dt>
+                                <dd class="twitter"><a href="http://twitter.com/buildbrighton" title="Twitter"><span class="hide">http://twitter.com/buildbrighton</span></a></dd>
+                                <dt>Facebook:</dt>
+                                <dd class="facebook"><a href="http://www.facebook.com/pages/BuildBrighton/143613747697" title="Facebook"><span class="hide">https://www.facebook.com/pages/BuildBrighton/143613747697</span></a></dd>
+                                <dt>Website:</dt>
+                                <dd class="website"><a href="http://www.buildbrighton.com" title="Website"><span class="hide">http://www.buildbrighton.com</span></a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sixcol">
+                    <div class="listing">
+                        <h2><a href="http://brightoncreativewritingsessions.co.uk/" title="Website">Creative Writing Sessions</a></h2>
+                        <div class="left">
+                            <p><img alt="No logo available" src="static/images/groups/creativewriting.png" /></p>
+                        </div>
+                        <div class="right">
+                            <p>The Brighton Creative Writing Sessions are a series of fun, sociable writing workshops with a slight difference. They’re based around interesting, experimental themes that aim to jolt your creative streak into producing lots of new material in unexpected ways. The Sessions give you a supportive, playful studio atmosphere where you can try out new things.</p>
+                            <dl class="links">
+                                <dt></dt>
+                                <dd class="more">Find out more</dd>
+                                <dt>Website:</dt>
+                                <dd class="website"><a href="http://brightoncreativewritingsessions.co.uk/" title="Website"><span class="hide">http://brightoncreativewritingsessions.co.uk/</span></a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="sixcol last">
+                    <div class="listing">
+                        <h2><a href="http://dotbrighton.org/" title="Website">dotBrighton</a></h2>
+                        <div class="left">
+                            <p><img alt="dotBrighton" src="static/images/groups/dotbrighton.png" /></p>
+                        </div>
+                        <div class="right">
+                            <p>An the award-winning digitally creative user group. Some sessions are formal presentations, some are improvised workshops and some are just pure pandemonium, quite honestly. But all of them are great fun! dotBrighton also has a constant turn over of projects, from freeform collaborative animations to robust one-man applications.</p>
+                            <dl class="links">
+                                <dt></dt>
+                                <dd class="more">Find out more</dd>
+                                <dt>Twitter:</dt>
+                                <dd class="twitter"><a href="http://twitter.com/dotbrighton" title="Twitter"><span class="hide">http://twitter.com/dotbrighton</span></a></dd>
+                                <dt>Website:</dt>
+                                <dd class="website"><a href="http://dotbrighton.org/" title="Website"><span class="hide">http://dotbrighton.org/</span></a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sixcol">
+                    <div class="listing">
+                        <h2><a href="http://www.meetup.com/functional-brighton" title="Website">Functional Brighton</a></h2>
+                        <div class="left">
+                            <p><img alt="No logo available" src="static/images/groups/functionalbrighton.png" /></p>
+                        </div>
+                        <div class="right">
+                            <p>Functional Brighton is a meetup group that aims to bring together people interested in functional programming. Functional programming languages and the theoretical mathematical framework they are rooted in have grown out of academia, but are increasingly finding use in industry to solve real-world problems.</p>
+                            <dl class="links">
+                                <dt></dt>
+                                <dd class="more">Find out more</dd>
+                                <dt>Twitter:</dt>
+                                <dd class="twitter"><a href="http://twitter.com/functionalbton" title="Twitter"><span class="hide">http://twitter.com/functionalbton</span></a></dd>
+                                <dt>Website:</dt>
+                                <dd class="website"><a href="http://www.meetup.com/functional-brighton" title="Website"><span class="hide">http://www.meetup.com/functional-brighton</span></a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sixcol last">
+                    <div class="listing">
+                        <!-- span around single letter fixes font related display bug -->
+                        <h2><a href="http://www.opencoffeesussex.com/" title="Website">Open Co<span>f</span>fee Sussex</a></h2>
+                        <div class="left">
+                            <p><img  alt="Open Coffee Sussex" src="static/images/groups/ocsussex.jpg" /></p>
+                        </div>
+                        <div class="right">
+                            <p>A place for tech entrepreneurs and owners of growing businesses to meet investors and people that have done it before - over a cup of coffee. A great opportunity to talk to people about turning your academic research into a commercial product.</p>
+                            <dl class="links">
+                                <dt></dt>
+                                <dd class="more">Find out more</dd>
+                                <dt>Twitter:</dt>
+                                <dd class="twitter"><a href="http://twitter.com/ocsussex" title="Twitter"><span class="hide">http://twitter.com/ocsussex</span></a></dd>
+                                <dt>Website:</dt>
+                                <dd class="website"><a href="http://www.opencoffeesussex.com/" title="Website"><span class="hide">http://www.opencoffeesussex.com/</span></a></dd>
+                            </dl>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row get_involved">
+                <h2 class="twelvecol">Getting involved</h2>
+                <div class="sixcol">
+                    <h3>Academics, researchers and students</h3>
+                    <p>If any of the groups or events on this page interest you, the easiest way to get involved is to visit their website, find out when they are next holding a meeting, and go along. Many of the groups have Twitter accounts that you can follow or Google Groups you can join if you'd like to join the discussion.</p>
+                    <p>Secondly, please forward the link to Brighton Brains to as many of your friends, fellow students and academic colleagues as you can. If you're a lecturer, tell all your students to visit the site. Post the link on Facebook and Twitter, and send it out to your departmental email lists.</p>
+                    <p>Finally, If you know of any other groups that should be on this page, or have any suggestions for any other improvements to site, please don't hesitate to <a href="mailto:office@dabapps.com" title="Email us">contact us</a>.</p>
+                </div>
+                <div class="sixcol last">
+                    <h3>Creative and digital community groups</h3>
+                    <p>If you run or attend a meetup, event or other community group in Brighton or the surrounding areas that you think should be on this site, please let us know. You can either <a href="mailto:office@dabapps.com" title="Email us">email us</a> with the details, or <a href="https://github.com/dabapps/brightonbrains/" title="Brighton Brains on Github">fork the project on GitHub</a> and open a pull request (if you know how!)</p>
+                    <p>Please promote Brighton Brains to other group members and ask them to pass it on to any friends that might be interested. If you have any suggestions for how we could improve the site, please let us know.</p>
+                </div>
+            </div>
+
+            <footer class="row">
+                <div class="twelvecol">
+                    <p class="build"><a title="go to DabApps website" href="http://dabapps.com">Designed and built by DabApps</a></p>
+                    <div class="credits">
+                        <h3>Credits:</h3>
+                        <p>Logo by <a href="http://thenounproject.com/" title="The Noun Project">The Noun Project</a>, backgrounds by <a href="http://subtlepatterns.com/" title="Subtle Patterns">Subtle Patterns</a>, photos by <a href="http://www.flickr.com/photos/philhawksworth/5194375813/" title="Async photo">Phil Hawksworth</a>, <a href="http://www.flickr.com/photos/barnoid/5680374068/" title="Build Brighton photo">Barney Livingston</a> and <a href="http://www.flickr.com/photos/72502719@N00/5351928166/" title="Open Coffee Sussex photo">Jon Markwell</a>.</p>
+                    </div>
+                </div>
+            </footer>
+
+        </div> <!-- /wrapper -->
+    </body>
 </html>

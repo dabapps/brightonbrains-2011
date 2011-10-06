@@ -1,0 +1,270 @@
+html {
+    background: url(../images/template/background.png);
+}
+
+body {
+    background: transparent;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Changa One", sans-serif;
+}
+
+h2, h3, h4, h5 {
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+h2 {
+    line-height: 28px;
+}
+
+h3 {
+    line-height: 20px;
+}
+
+p {
+    margin: 0 0 0.8em 0;
+}
+
+.left {
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.hide {
+    position: absolute;
+    left: -5000px;
+}
+
+.container {
+    width: auto;  /*Bootstrap override*/
+}
+
+.social {
+    height: 35px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.social .facebook,
+.social .twitter {
+    float: left;
+    width: 330px;
+    margin: 5px 0px 0px 0px;
+}
+
+.hero-unit {
+    background-image: url(../images/template/headerbackground.png);
+    padding: 20px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.hero-unit h1 {
+    letter-spacing: -3px;
+    color: #f0f0f0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hero-unit p {
+    color: #f0f0f0;
+    width: 90%;
+}
+
+.hero-unit img {
+    display: block;
+    float: left;
+    margin-right: 30px;
+}
+
+.listing {
+    margin: 3.8% 5px 3.8% 0;
+    background: #fff;
+    padding: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    min-height: 255px;
+    -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.listing .left {
+    width: 40%;
+    float: left;
+}
+
+.listing .right {
+    width: 60%;
+    float: left;
+}
+
+.listing .left {
+    text-align: center;
+}
+
+.listing h2,
+.listing h3,
+.listing p {
+    margin: 0 12px 8px 0px;
+}
+
+.listing h2 {
+    margin-left: 1%;
+}
+
+.listing h2 span {
+    letter-spacing: 1px;
+}
+
+.links {
+    height: 32px;
+    margin-top: 10px;
+    margin-right: 15px;
+    padding-top: 8px;
+    padding-right:  10px;
+    border: solid 1px #e6e6e6;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);
+    background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+}
+
+.links dt {
+    float: left;
+    min-height: 30px;
+    text-indent: -5000px;
+}
+
+.links dd {
+    float: right;
+    min-height: 30px;
+    min-width: 24px;
+    background-repeat: no-repeat;
+}
+
+.links dd.more {
+    float: left;
+    color: #0069D6;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.links dd a {
+    display: inline-block;
+    width:  24px;
+    height: 24px;
+}
+
+.links dd.facebook a {
+    background: url(../images/template/facebook-24x24.png) no-repeat;
+}
+
+.links dd.twitter a {
+    background: url(../images/template/twitter-24x24.png) no-repeat;
+}
+
+.links dd.website a {
+    background: url(../images/template/website-24x24.png) no-repeat;
+}
+
+footer {
+    border-top: solid 2px #888;
+}
+
+footer .build a {
+    display: inline-block;
+    background: url(../images/template/dabapps-logo.png) no-repeat;
+    padding: 20px 0px 0px 120px;
+    height: 30px;
+    color: #000;
+    font-weight: bold;
+}
+
+footer .credits h3 {
+    color: #888;
+    display: inline;
+    margin-right: 10px;
+}
+
+footer .credits p {
+    color: #888;
+    display: inline;
+    line-height: 20px;
+}
+
+footer .credits a {
+    color: #888;
+    font-weight: bold;
+}
+
+
+/* Smaller screens */
+
+@media only screen and (max-width: 1023px) {
+
+    body {
+        font-size: 0.8em;
+        line-height: 1.5em;
+    }
+
+
+
+    .listing {
+        min-height: 350px;
+    }
+
+}
+
+@media handheld, only screen and (max-width: 767px) {
+
+    body {
+        padding-top: 0px;
+    }
+
+    .hero-unit {
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .social {
+        height: 0;
+        min-height: 35px;
+    }
+
+    .listing {
+        min-height: 260px;
+    }
+
+}
+
+@media handheld, only screen and (max-width: 550px) {
+
+    .listing {
+        min-height: 365px;
+    }
+
+
+}
+
+@media handheld, only screen and (max-width: 330px) {
+
+    .listing {
+        min-height: 450px;
+    }
+}
