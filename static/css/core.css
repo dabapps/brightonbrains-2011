@@ -230,6 +230,14 @@ footer .credits a {
         min-height: 350px;
     }
 
+    .links dd {
+        float: left;
+    }
+
+    .links dd.more {
+        display: none;
+    }
+
 }
 
 @media handheld, only screen and (max-width: 767px) {
